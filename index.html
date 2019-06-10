@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>#app {
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+    }
+    </style>
 </head>
 
 <body>
@@ -13,8 +19,11 @@
 
     </div>
     <script>
-        console.log(document.querySelector('#app'))
+        document.body.style.background = ""
+
+            var app = document.getElementById('box');
+            app.style.backgroundColor = "blue";
+            app. style.width = "300xp";
+            app.style.height = "150xp";
     </script>
 </body>
-
-</html>
